@@ -1,0 +1,173 @@
+Resetting default margin and padding
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container-fluid {
+    color:#ff5722;
+    width: 80%;
+    margin: auto;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    float: left;
+  }
+  
+  .nav-link {
+    float: right;
+  }
+  
+  .nav-link li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .nav-link li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url(./jollof\ background.png);
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #ff7043;
+  }
+  
+  /* Menu section styles */
+  .menu {
+    padding: 100px 0;
+  }
+  
+  .menu h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .menu-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  img{
+    height: 10rem;
+  }
+ .img1{
+    height: 1orem;
+    width: 15rem;
+
+  }
+  
+  /* About section styles */
+  .about {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+  }
+  
+  .about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+  }
+  
+  /* Contact section styles */
+  .contact {
+    padding: 100px 0;
+  }
+  
+  .contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form textarea {
+    height: 150px;
+  }
+  
+  form button {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #ff7043;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
